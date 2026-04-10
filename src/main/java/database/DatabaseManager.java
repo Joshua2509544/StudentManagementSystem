@@ -11,7 +11,7 @@ public class DatabaseManager {
 
     private static final String URL = "jdbc:mysql://localhost:3306/studentdb";
     private static final String DB_USER = "root";
-    private static final String DB_PASS = "Pwd27092006!";
+    private static final String DB_PASS = "NewPassword123!";
 
     public Connection connect() throws SQLException {
         return DriverManager.getConnection(URL, DB_USER, DB_PASS);
